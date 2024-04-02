@@ -3,7 +3,7 @@ from crewai import Agent, Task, Process, Crew
 from langchain_google_genai import ChatGoogleGenerativeAI
 import mysql.connector as sql
 import json
-api_key = "AIzaSyAn1Q68KMTij1cbNABCp3RSAg2V7nHDj_8"
+api_key = "paste the api key here"
 
 nlp = input("How can i help?: ")
 
