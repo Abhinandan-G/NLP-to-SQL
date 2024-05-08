@@ -34,7 +34,7 @@ op = crew.kickoff()
 # print(type(op))
 print(op)
 
-cnx=sql.connect(host='127.0.0.1',user='root',password='Dracarys@27',database='pythondbconnection')
+cnx=sql.connect(host='127.0.0.1',user='your username',password='your password',database='name of the database')
 
 if(cnx.is_connected()):
     print("connected")
